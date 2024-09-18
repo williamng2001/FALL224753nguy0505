@@ -1,0 +1,13 @@
+Package: FALL224753nguy0505
+Type: Package
+Title: R functions from the labs
+Version: 0.1.0
+Author: William Nguyen
+Maintainer: William Nguyen <willng2001@gmail.com>
+Description: MATH 4753 functions detailed from LABS.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+URL: https://github.com/williamng2001/FALL224753nguy0505
+BugReports: https://github.com/williamng2001/FALL224753nguy0505/issues
