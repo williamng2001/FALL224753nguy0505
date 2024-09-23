@@ -4,8 +4,6 @@
 #' @param iter iterations
 #' @param p probability
 #'
-#'
-#'
 #' @return A histogram
 #' @export
 #'
