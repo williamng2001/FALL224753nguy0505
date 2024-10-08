@@ -5,6 +5,7 @@
 #' @param p probability of a show
 #'
 #' @return Binomial solution with nd as binomial answer to number of seats to sell with a plot along with a Normal approximation answer
+#' @importFrom graphics abline curve par
 #' @export
 #'
 #' @examples

@@ -6,6 +6,9 @@
 #' @importFrom
 #'
 #' @return A histogram
+#' @importFrom grDevices rainbow
+#' @importFrom graphics barplot
+#'
 #' @export
 #'
 #' @examples
