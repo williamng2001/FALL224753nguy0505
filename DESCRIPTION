@@ -14,3 +14,5 @@ BugReports: https://github.com/williamng2001/FALL224753nguy0505/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)

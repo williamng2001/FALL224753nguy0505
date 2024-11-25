@@ -25,18 +25,17 @@ ntickets <-function(N, gamma, p){
   f <- function(nn){
     1-gamma-pnorm(N, nn*p, sqrt(nn*p*(1-p)))
   }
-
   par(mfrow = c(2, 1))
 
   plot(n, tmp, type = "b", pch = 16, cex = 0.8,
        ylab = "Objective Function",
        xlab = "Number of Tickets (n)",
-       main = "Discrete Case (Binomial)")
+       main = paste("Discrete Case (Binomial)\nOptimal n =", n[ind]))
   abline(v = n[ind], h = tmp[ind])
   curve(f, xlim= c(N, floor(N+N/10)),
         ylab = "Objective Function",
         xlab = "Number of Tickets (n)",
-        main = "Normal Approximation")
+        main = paste("Normal Approximation\nOptimal n =", nn[indc]))
   abline(v=nn[indc], h = tmt[indc])
 
   par(mfrow = c(1, 1))
