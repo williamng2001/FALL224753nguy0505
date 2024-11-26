@@ -11,6 +11,7 @@
 #' @importFrom graphics title
 #'
 #' @examples
+#' \dontrun{bootpval(x=sam, conf.level=0.95, iter =3000, mu = 0, test="two")}
 bootpval<-function(x,conf.level=0.95,iter=3000,mu0=0, test="two"){
   n=length(x)
   y=x-mean(x)+mu0  # transform the data so that it is centered at the NULL
